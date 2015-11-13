@@ -11,10 +11,10 @@
 
 ## Notes
 
-/posts/:id route, posts#show action, show.html view
+/students/:id route, students#show action, show.html view
 
 draw a route with a variable.
-use that variable in Post.find in the controller action
-load the instance variable @post in the controller action
+use that variable in student.find in the controller action
+load the instance variable @student in the controller action
 render the show view
-use that instance variable to write out data about a specific post
+use that instance variable to write out data about a specific student
