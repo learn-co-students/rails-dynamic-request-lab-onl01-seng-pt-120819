@@ -18,3 +18,5 @@ use that variable in student.find in the controller action
 load the instance variable @student in the controller action
 render the show view
 use that instance variable to write out data about a specific student
+
+<a href='https://learn.co/lessons/rails-dynamic-request-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
