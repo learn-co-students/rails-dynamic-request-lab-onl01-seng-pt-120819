@@ -16,24 +16,20 @@
 
 ## Instructions
 
-There are three RSpec/Capybara specs in this lesson, you can run them with the command ```rspec spec/features/student_spec.rb```, make sure they pass without breaking the other tests, to complete this section all specs should pass.
+There are three RSpec/Capybara specs in this lesson, you can find them in `spec/features/student_spec.rb`, make sure they pass without breaking the other tests, to complete this section all specs should pass.
 
-In this lab you will work through the full MVC pattern, at a high level you will integrate the following scenario in your application:
+In this lab you will work through the full MVC pattern by building a student management app for The Flatiron School, at a high level you will integrate the following scenario in your application:
 
-1. Your router will be able to process dynamic requests URLs such as: ```students/5``` where ```5``` is a student ID.
+1. The user is able to go to `/students/2` to receive information on the student with the id of `2`
 
-2. That request will be routed through a new controller ```show``` action in your students' controller.
-
-3. The show method will parse the ```:id``` route variable and pass it into a query on the Student model and store it in an instance variable.
-
-4. Finally the student show template will render the values from the instance variable relayed from the show action.
+2. The application should render the values from the `student` record in the database
 
 
 ## Keys to remember
 
-* Make sure that you use a route variable for the show request path
+* Make sure that you use a route variable for the `show` request path
 
-* Do not use any generators or scaffolds to build this functionality, integrate all of the behavior manually
+* If you google around and discover generators/scaffolds **don't use them** for this lab
 
 ## Resources
 
