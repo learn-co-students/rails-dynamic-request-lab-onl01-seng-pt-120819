@@ -20,7 +20,9 @@ describe 'Multiple students are shown' do
 end
 
 describe 'Show page' do
-  @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
+  before do
+    @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
+  end
 
   it 'renders properly' do
     visit "students/#{@student.id}"
