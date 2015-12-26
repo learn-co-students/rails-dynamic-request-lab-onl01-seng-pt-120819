@@ -1,22 +1,37 @@
 # Rails Dynamic Request Lab
 
+
 ## Objectives
 
-1. Draw a route with a dynamic variable
-2. Use a routes variable in params within the logic of an action
-3. Assign an instance variable in a controller action
-4. Use a controller instance variable to generate a dynamic ERB template.
-5. Build a classical show action/view
+* Draw a route with a dynamic variable
+
+* Use a routes variable in params within the logic of an action
+
+* Assign an instance variable in a controller action
+
+* Use a controller instance variable to generate a dynamic ERB template.
+
+* Build a classical show action/view
 
 
-## Notes
+## Instructions
 
-/students/:id route, students#show action, show.html view
+There are three RSpec/Capybara specs in this lesson, you can find them in `spec/features/student_spec.rb`, make sure they pass without breaking the other tests, to complete this section all specs should pass.
 
-draw a route with a variable.
-use that variable in student.find in the controller action
-load the instance variable @student in the controller action
-render the show view
-use that instance variable to write out data about a specific student
+In this lab you will work through the full MVC pattern by building a student management app for The Flatiron School, at a high level you will integrate the following scenario in your application:
 
-<a href='https://learn.co/lessons/rails-dynamic-request-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
+1. The user is able to go to `/students/2` to receive information on the student with the id of `2`
+
+2. The application should render the values from the `student` record in the database
+
+
+## Keys to remember
+
+* Make sure that you use a route variable for the `show` request path
+
+* If you google around and discover generators/scaffolds **don't use them** for this lab
+
+## Resources
+
+[Documentation](http://api.rubyonrails.org/classes/ActionDispatch/Routing.html)
+[Reading](https://github.com/learn-co-curriculum/rails-dynamic-request-readme)
