@@ -16,7 +16,7 @@
 
 ## Instructions
 
-There are three RSpec/Capybara specs in this lesson, you can find them in `spec/features/student_spec.rb`, make sure they pass without breaking the other tests, to complete this section all specs should pass.
+There are three RSpec/Capybara specs in this lesson, you can find them in `spec/features/student_spec.rb`. Make sure they pass without breaking the other tests. To complete this section, all specs should pass.
 
 In this lab you will work through the full MVC pattern by building a student management app for The Flatiron School, at a high level you will integrate the following scenario in your application:
 
@@ -35,3 +35,4 @@ In this lab you will work through the full MVC pattern by building a student man
 
 [Documentation](http://api.rubyonrails.org/classes/ActionDispatch/Routing.html)
 [Reading](https://github.com/learn-co-curriculum/rails-dynamic-request-readme)
+<a href='https://learn.co/lessons/rails-dynamic-request-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
