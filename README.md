@@ -35,4 +35,4 @@ In this lab you will work through the full MVC pattern by building a student man
 
 [Documentation](http://api.rubyonrails.org/classes/ActionDispatch/Routing.html)
 [Reading](https://github.com/learn-co-curriculum/rails-dynamic-request-readme)
-<a href='https://learn.co/lessons/rails-dynamic-request-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-dynamic-request-lab' title='Rails Dynamic Request Lab'>Rails Dynamic Request Lab</a> on Learn.co and start learning to code for free.</p>
